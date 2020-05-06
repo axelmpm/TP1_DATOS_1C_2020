@@ -10,6 +10,6 @@
 
 *) Nombre de variables: PrimeraLetraDelNombre_NombreVariable. Ej: N_TweetsFalsos, es la variable TweetsFalsos de Nacho.
 
-*) PARA ACCEDER A FUNCIONES EN datuslib: %run datuslib.ipynb
+*) PARA HACER "import datuslib" SE HACE EN UNA CELDA: %run datuslib.ipynb
 
-    (Aca es donde guardamos nuestras funciones compartidas).
+    (datuslib.ipynb es donde guardamos nuestras funciones compartidas).
