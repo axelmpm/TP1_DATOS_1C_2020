@@ -1,0 +1,8 @@
+ver cosas que podrian ensuciar el data set con info inutil (como limpiar el data set)
+
+
+
+los del pacifico tienen mas 1=
+
+
+de los que usan palabras negativas cuantos son 1 y 0?
