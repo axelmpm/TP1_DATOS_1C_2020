@@ -8,4 +8,4 @@
     nbmerge a1.ipynb a2.ipynb a3.ipynb > a4.ipynb).
     (Al mergear, buscar los import y ponerlos todos en la 1ra celda).
 
-*) Nombre de variables: PrimeraLetraDelNombre_NombreVariable. Ej: N_TweetsFalsos, ser la variable TweetsFalsos de Nacho.
+*) Nombre de variables: PrimeraLetraDelNombre_NombreVariable. Ej: N_TweetsFalsos, es la variable TweetsFalsos de Nacho.
