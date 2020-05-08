@@ -14,6 +14,6 @@
 
     (datuslib.ipynb es donde guardamos nuestras funciones compartidas).
     
-*) CADA PLOT DEBE PERTENECER A UN TEMA Y CADA TEMA DEBE CORRESPONDERSE CON UNO Y SOLO UN NOTEBOOK CON NOMBRE <SIGLA>_<TEMA>
+*) CADA PLOT DEBE PERTENECER A UN TEMA Y CADA TEMA DEBE CORRESPONDERSE CON UNO Y SOLO UN NOTEBOOK CON NOMBRE (SIGLA)_(TEMA)
 
     (por ejemplo: si yo (Axel) hago los plots de tema negatividad los meto en A_negatividad.ipynb).
