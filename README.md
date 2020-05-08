@@ -13,3 +13,5 @@
 *) PARA HACER "import datuslib" SE HACE EN UNA CELDA: %run datuslib.ipynb
 
     (datuslib.ipynb es donde guardamos nuestras funciones compartidas).
+
+*) NOMBRE DE DATA FRAME DE TRAIN ES "df" Y QUE APUNTE AL GITHUB
