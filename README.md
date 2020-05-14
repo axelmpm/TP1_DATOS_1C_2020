@@ -20,6 +20,6 @@
     
 *) PARA PODER RESOLVER CONFLICTOS ENTRE NOTEBOOKS: 
 
-    pip install nbdime.                    (INSTALACION)
+    pip install nbdime                     (INSTALACION)
     nbdime config-git --enable --global    (INSTALACION)
     nbdime mergetool                       (USAR CUANDO APAREZCA UN CONFLICTO)
