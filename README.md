@@ -23,3 +23,7 @@
     pip install nbdime                     (INSTALACION)
     nbdime config-git --enable --global    (INSTALACION)
     nbdime mergetool                       (USAR CUANDO APAREZCA UN CONFLICTO)
+
+*) Convencion de nombres: 
+    Funciones en ingles.
+    Variables y plots en español.
