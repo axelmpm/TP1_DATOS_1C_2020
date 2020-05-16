@@ -6,7 +6,17 @@
    "metadata": {},
    "outputs": [],
    "source": [
-    "a = \"un valor re loco\""
+    "a = 999999"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "<<<<<<< REMOTE CELL DELETED >>>>>>>\n",
+    "a = 131"
    ]
   },
   {
@@ -14,7 +24,9 @@
    "execution_count": null,
    "metadata": {},
    "outputs": [],
-   "source": []
+   "source": [
+    "fdafdafdas"
+   ]
   }
  ],
  "metadata": {
@@ -33,7 +45,7 @@
    "name": "python",
    "nbconvert_exporter": "python",
    "pygments_lexer": "ipython3",
-   "version": "3.6.9"
+   "version": "3.7.4"
   }
  },
  "nbformat": 4,
