@@ -4,7 +4,7 @@
 
 *) PARA MERGEAR NOTEBOOKS: pip install nbmerge
 
-    (Si quiero mergear a1.ipynb y a2.ipynb y a3.ipynb y guardarlo en un archivo llamado a3.ipynb, hago:
+    (Si quiero mergear a1.ipynb y a2.ipynb y a3.ipynb y guardarlo en un archivo llamado a4.ipynb, hago:
     nbmerge a1.ipynb a2.ipynb a3.ipynb > a4.ipynb).
     (Al mergear, buscar los import y ponerlos todos en la 1ra celda).
 
