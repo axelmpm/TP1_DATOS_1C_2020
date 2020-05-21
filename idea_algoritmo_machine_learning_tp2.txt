@@ -1,0 +1,44 @@
+Primer paso:
+
+Fabricar metricas sobre los tweets. Esto significa funciones que tome un tweet y devuelvan un numero (es preferible que sean inyectivas)
+
+ejemplos de esto son la de negatividad, la de importancia y la de longitud de tweet
+
+
+Segundo paso:
+
+calcular para cada tweet P(desastre | X1 = x, X2 = y, ..., Xk = w) con Xk todas metricas del paso 1
+
+estos dos pasos hacen al preprocesamiento, feature engeniering y training
+
+
+Tercer paso:
+
+tomar un tweet del set de test y calcularle el valor de todas las metricas Xk 
+
+esto va a introducir al tweet en un espacio de k dimensiones donde habitan todos los tweets del set de train
+
+se buscan los n vecinos mas cercanos con algun otro algoritmo 
+
+se le asigna la probabilidad de los vecinos (con alguna interpolacion)
+
+
+Paso cuatro:
+
+se tira una moneda cargada con la probabilidad asignada al tweet en el paso 3. 
+
+Si la moneda es 0 se le asigna al tweet un 0 en el target
+
+Si la moneda es 1 se le asigna al tweet un 1 en el target
+
+En proemdio un 60% de los tweets que se le asigno un 60% de probabilidad en el paso 3 van a tener un 1 respetando asi el modelo aprendido del set de train (esto valdria para toda probabilidad y no solo para 60% obviamente)
+
+
+
+OJO:
+
+Hay que tener el cuidado de elegir metricas y una cantidad k de metricas que no hagan que las clases de datos que se forman sean muy chicas porque podria overfitear
+
+si por ejemplo se eligen tantas metricas como datos. Cada dato va a tener su propia categoria y la proba de cada dato seria 1 o 0 y esto no sirve justamente por la ecuacion mas peligrosa de la historia (esa categoria o clase tendria solo un elemento)
+
+
