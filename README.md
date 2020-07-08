@@ -1,7 +1,4 @@
-# TP1_DATOS_1C_2020
-
-PARA EL CORRECTOR:
-    En A_jugueteando hay una visualizacion 3D de los datos que no sabiamos como poner en el informe
+# TPs_DATOS_1C_2020
 
 *) Informe: https://es.overleaf.com/project/5ec4a3bba31c280001e9223b
 
