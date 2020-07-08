@@ -1,4 +1,4 @@
-# TP1_DATOS_1C_2020
+# TPs_DATOS_1C_2020
 
 *) Informe: https://es.overleaf.com/project/5ec4a3bba31c280001e9223b
 
