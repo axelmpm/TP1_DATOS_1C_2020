@@ -1,0 +1,15 @@
+NO ENCUENTRA CLUSTERS MUY GENERICOS SINO LOS TIPO ESFERA
+
+dada una distancia definida para los datos primero se calcula la distancia para cada par de datos
+
+luego se recorre uno por uno los datos y a cada uno se le asigna un conjunto de cercanos. Osea el conjunto de cercanos a X son los Y con los que la distancia entre Y y X es menor o igual a cierto threshold pre definido.
+
+un cluster es un conjunto de datos S para los que la interseccion de sus conj de cercanos es igual a S
+
+por cada X del set se itera por los datos Y cercanos a X. Por cada Y se toma sus cercanos y se le hace la interseccion con los cercanos de X. 
+
+ej
+    se toma Y1 y se hace cercanos(X) interseccion cercanos(Y1)
+    desp se toma Y2 y se hace cercanos(X) interseccion cercanos(Y1) interseccion cercanos(Y2)
+    y asi.. hasta que o de vacio y ahi se corta y se concluye que no hay clusters con X, Y1, Y2, ..., YK (donde fue en YK donde dio vacio)
+    o se termina de iterar sobre los cercanos de X y se construye un cluster con las intersecciones

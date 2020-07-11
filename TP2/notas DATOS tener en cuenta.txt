@@ -1,0 +1,43 @@
+hyperopt bayesian search
+
+lo que mas importan son los features
+
+reduccion de dimensiones no son normalmente utiles
+
+justificar cada cosa que se haga
+
+KNN es un baseline (probar primero y usar de referencia)
+
+XGBOOS o RNN son lo mejor y mas comun hasta ahora
+
+es bueno hacer un analisis forense de cuando el modelo fallo
+
+usar el error de train y de generalizacion para ver como entreno el modelo
+
+podriamos usar RNN preentrenadas VGG, inception
+
+lightGBM es muy usado y bueno. sirve para categoricas
+
+catBoost es mas un baseline util
+
+el feature importance no significa nada util si es el de XGBOOST. El de randomforest es un poco mejor
+
+los esnambles mejoran poquito los modelos
+
+no es comun usar naive bayes
+
+se usan conv-1d, LTSM etc RNNs
+
+puede ser util sacarle a los datos los features mas importantes para forzar al modelo a usar los otros
+
+catBoost es bueno para encodear features categoricos y si se tiene una fecha es mejor decirle que ordene por eso que que lo haga random
+
+muchas veces los algoritmos no saben generar features (ejemplo cocientes)
+
+es preferible que el feature engeniering sea artesanal hecho por uno mas que con librerias
+
+randomforest no puede andar peor que una regresion logistica
+
+usar librerias para cross validation y grid search
+
+la RELU es la funcion de activacion de moda en las RNN
