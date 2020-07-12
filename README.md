@@ -1,10 +1,13 @@
 # TPs_DATOS_1C_2020
 
-    DRIVE con ideas TP2: https://docs.google.com/document/d/1BgSbnm7DZa6TtsCEaXxTdbGqxC34fqUtRB6p-PHuQac/edit
+    DRIVE con ideas TP2: 
+        https://docs.google.com/document/d/1BgSbnm7DZa6TtsCEaXxTdbGqxC34fqUtRB6p-PHuQac/edit
 
-    Informe: https://es.overleaf.com/project/5ec4a3bba31c280001e9223b
+    Informe TP1: 
+        https://es.overleaf.com/project/5ec4a3bba31c280001e9223b
 
-    DRIVE con ideas: https://docs.google.com/document/d/1B8ROm6J33qeZduitpz7esbcvn0uf4x_pSifhdH9x5JU/edit?usp=sharing
+    DRIVE con ideas: 
+        https://docs.google.com/document/d/1B8ROm6J33qeZduitpz7esbcvn0uf4x_pSifhdH9x5JU/edit?usp=sharing
 
     PARA MERGEAR NOTEBOOKS: pip install nbmerge
 
