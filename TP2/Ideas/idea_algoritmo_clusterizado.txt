@@ -13,3 +13,6 @@ ej
     desp se toma Y2 y se hace cercanos(X) interseccion cercanos(Y1) interseccion cercanos(Y2)
     y asi.. hasta que o de vacio y ahi se corta y se concluye que no hay clusters con X, Y1, Y2, ..., YK (donde fue en YK donde dio vacio)
     o se termina de iterar sobre los cercanos de X y se construye un cluster con las intersecciones
+
+
+(HDBScan es mejor)

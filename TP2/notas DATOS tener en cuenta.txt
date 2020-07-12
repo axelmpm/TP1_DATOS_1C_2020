@@ -41,3 +41,12 @@ randomforest no puede andar peor que una regresion logistica
 usar librerias para cross validation y grid search
 
 la RELU es la funcion de activacion de moda en las RNN
+
+¿Está bien no tener en cuenta un determinado feature?
+Lo que no está bien es "descartarlo de entrada",es decir, asumir a priori que por alguna razón que no fue probada (verificada empíricamente) ese feature no contribuye a la predicción. Se debe verificar (por ejemplo, conun feature importance de un modelo representativo como RandomForest) si cada feature dado tiene influencia relevante o no, ya sea de por sí o a través de alguna codificación. Lo que sí es correcto es descartarlo basándose en un criterio justificado, llegando a un modelo que no utiliza determinados features.
+
+IDEAS AXEL
+======
+
+para clustering parece bueno HDBScan mas que K-means
+
