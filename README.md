@@ -1,5 +1,12 @@
 # TPs_DATOS_1C_2020
 
+    TP2 workflow:
+        1) se hace el notebook con el algoritmo
+        2) se lo prueba para ver como da
+        3) se lo submitea
+        4) se lo agrega al informe
+        5) paso 1) con un nuevo algoritmo
+
     Informe TP2:
         https://es.overleaf.com/9929313537cstmyvrsmmhd
 
