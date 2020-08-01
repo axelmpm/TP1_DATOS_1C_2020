@@ -1,0 +1,21 @@
+
+ojo que el accuracy no es lo mismo que f1. Que en accuracy de menos que 82% no significa que no te sirva el modelo porque por ahi el f1 es superador. SI EL ACCURACY DIO MAS QUE 75 PROBAR EL F1. MUCHAS VECES LO QUE DA LA VAL ES POR EL SUBSAMPLEO QUE TOMASTE
+
+duplicar el set de train generando 2 tweets de uno con el label del original????
+    ejemplo:
+        "ha sucedido un terrible accidente en japon debido a la erupcion de un volcan" label=1
+    ---->
+        "ha sucedido un terrible accidente en japon ha sucedido un terrible accidente en japon" label = 1
+    +
+        "debido a la erupcion de un volcan debido a la erupcion de un volcan" label = 1 
+
+
+ARBOLES
+
+hay un parametro en XGB y el LightHGM que hace que se pueda trabajar con datos desbalanceados
+
+ojo los ratios (ver tema de intervalos de confianza)
+
+usar las hojas de un XGB para hacer interacciones multiples de features
+
+interaccionar los k features mas importntes segun el RF

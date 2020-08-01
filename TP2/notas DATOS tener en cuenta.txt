@@ -16,7 +16,7 @@ usar el error de train y de generalizacion para ver como entreno el modelo
 
 podriamos usar RNN preentrenadas VGG, inception
 
-lightGBM es muy usado y bueno. sirve para categoricas
+lightHBM es muy usado y bueno. sirve para categoricas
 
 catBoost es mas un baseline util
 
